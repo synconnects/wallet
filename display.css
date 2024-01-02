@@ -1,0 +1,131 @@
+body{
+    
+}
+
+
+
+/* Custom styles for small screens and up */
+@media (min-width: 576px) {
+  /* Add your styles here for small screens */
+    
+  .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 28px 32px 24px 32px;
+    margin-top: 25px;
+    
+  }
+  
+  .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .icon-otr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .icon-otr .icon {
+    font-size: 60px;
+    color: #FFFFFF;
+  }
+  
+  .icon-otr .oge{
+  width: 120px;
+  height: 120px;
+        
+ 
+  }
+  .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .content .heading{
+    color: #FFFFFF;
+    margin: 16px 5px 12px 0;
+    font-size: 65px;
+    
+  }
+  
+  .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .content .desc {
+    color: #B7B7B7;
+    font-size: 28px;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 991px) {
+    .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .box-1,
+    .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .box-2 {
+      margin: 0 0 24px 0;
+    }
+  }
+  
+  .how-it-work-main .container-fluid .row-custom-main .active {
+    display: block;
+    opacity: 1;
+    
+}
+
+  .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .heading {
+    color: #FFFFFF;
+    font-size: 65px;
+  }
+  
+  .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .desc {
+    color: #FFFFFF;
+    margin: 20px 0 40px 0;
+  }
+  
+ 
+    .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .desc {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+  
+  
+  .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .action {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+    .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .action {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+  
+  
+    .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .action .btn-hero {
+      width: 400px;
+      height: 80px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  
+  
+  .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .action .btn-hero:not(:last-child) {
+    margin: 0 24px 0 0;
+  }
+  
+  
+    .hero2-main .container-fluid .row-custom .col-content-otr .col-content-inr .action .btn-hero:not(:last-child) {
+      margin: 0 0 24px 0;
+    }
+  
+
+/* Custom styles for medium screens and up */
+@media (min-width: 768px) {
+  /* Add your styles here for medium screens */
+  
+}
+
+/* Custom styles for large screens and up */
+@media (min-width: 992px) {
+  /* Add your styles here for large screens */
+}
+
+/* Custom styles for extra-large screens and up */
+@media (min-width: 1200px) {
+  /* Add your styles here for extra-large screens */
+}
+
+
