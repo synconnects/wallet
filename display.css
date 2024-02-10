@@ -2,7 +2,9 @@ body{
     
 }
 
-
+.explorer{
+    position:relative;
+}
 
 /* Custom styles for small screens and up */
 @media (min-width: 576px) {
