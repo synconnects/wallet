@@ -117,7 +117,13 @@ body{
 /* Custom styles for medium screens and up */
 @media (min-width: 768px) {
   /* Add your styles here for medium screens */
-  
+  .popup-container{
+      top:50%;
+      left:30%;
+      height:400px;
+      width:400px;
+
+  }
 }
 
 /* Custom styles for large screens and up */
